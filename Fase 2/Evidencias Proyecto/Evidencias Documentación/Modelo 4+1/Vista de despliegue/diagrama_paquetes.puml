@@ -1,0 +1,49 @@
+@startuml
+package "Usuarios" {
+  [Registro y Autenticación]
+  [Gestión de Perfiles]
+}
+
+package "Mascotas" {
+  [Gestión de Información de Mascotas]
+}
+
+package "Reservas" {
+  [Exploración de Paseadores]
+  [Gestión de Paseos y Reservas]
+}
+
+package "Pagos" {
+  [Procesamiento de Pagos]
+  [Gestión de Transacciones]
+}
+
+package "Notificaciones" {
+  [Seguimiento de Servicio]
+  [Confirmaciones y Notificaciones]
+}
+
+package "Incidencias" {
+  [Reportes de Incidencias]
+  [Protocolos de Emergencia]
+}
+
+package "Administración" {
+  [Gestión de Usuarios]
+  [Gestión de Roles y Permisos]
+  [Informes de Actividad]
+}
+
+"Registro y Autenticación" --> "Gestión de Perfiles"
+"Gestión de Perfiles" --> "Gestión de Información de Mascotas"
+"Gestión de Información de Mascotas" --> "Exploración de Paseadores"
+"Exploración de Paseadores" --> "Gestión de Paseos y Reservas"
+"Gestión de Paseos y Reservas" --> "Procesamiento de Pagos"
+"Procesamiento de Pagos" --> "Gestión de Transacciones"
+"Gestión de Paseos y Reservas" --> "Seguimiento de Servicio"
+"Seguimiento de Servicio" --> "Confirmaciones y Notificaciones"
+"Gestión de Usuarios" --> "Gestión de Roles y Permisos"
+"Gestión de Roles y Permisos" --> "Informes de Actividad"
+"Gestión de Paseos y Reservas" --> "Reportes de Incidencias"
+"Reportes de Incidencias" --> "Protocolos de Emergencia"
+@enduml

@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" modified="2024-06-10T06:01:07.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="cKGwggzSjVeics90EB9K" version="24.5.2" type="google">
+  <diagram name="Página-1" id="SkkikhPuCQQdOY4rjehg">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wtegNWGlclqcCbMSCLS5-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="32" width="670" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="wtegNWGlclqcCbMSCLS5-52" value="Visitante" style="whiteSpace=wrap;strokeWidth=2;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="47" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="wtegNWGlclqcCbMSCLS5-53" value="Navegar en la página" style="whiteSpace=wrap;strokeWidth=2;shape=ellipse;perimeter=ellipsePerimeter;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="166" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="wtegNWGlclqcCbMSCLS5-54" value="Registrarse como Cliente" style="whiteSpace=wrap;strokeWidth=2;shape=ellipse;perimeter=ellipsePerimeter;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="194" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="wtegNWGlclqcCbMSCLS5-55" value="Registrarse como Paseador" style="whiteSpace=wrap;strokeWidth=2;shape=ellipse;perimeter=ellipsePerimeter;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="207" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="wtegNWGlclqcCbMSCLS5-56" value="Accede a la página web" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wtegNWGlclqcCbMSCLS5-53">
+          <mxGeometry x="0.1277" y="-14" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="80" y="270" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wtegNWGlclqcCbMSCLS5-57" value="Ingresa a vista de registro cliente" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wtegNWGlclqcCbMSCLS5-52" target="wtegNWGlclqcCbMSCLS5-54">
+          <mxGeometry x="0.1261" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wtegNWGlclqcCbMSCLS5-58" value="Ingresa a vista de registro paseador" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wtegNWGlclqcCbMSCLS5-52" target="wtegNWGlclqcCbMSCLS5-55">
+          <mxGeometry x="0.0169" y="-7" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="280" />
+            </Array>
+            <mxPoint x="80" y="300" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wtegNWGlclqcCbMSCLS5-64" value="Verificar Correo electronico" style="whiteSpace=wrap;strokeWidth=2;shape=ellipse;perimeter=ellipsePerimeter;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="410" width="207" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wtegNWGlclqcCbMSCLS5-67" value="Enviar Formulario de postulación" style="whiteSpace=wrap;strokeWidth=2;shape=ellipse;perimeter=ellipsePerimeter;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="207" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wtegNWGlclqcCbMSCLS5-70" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.004;entryY=0.643;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wtegNWGlclqcCbMSCLS5-54" target="wtegNWGlclqcCbMSCLS5-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="350" as="sourcePoint" />
+            <mxPoint x="590" y="300" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbhWi_Qm2rzLrFuK4YHZ-12" value="Recibe correo de verificación" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="wtegNWGlclqcCbMSCLS5-70">
+          <mxGeometry x="-0.1719" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wtegNWGlclqcCbMSCLS5-71" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wtegNWGlclqcCbMSCLS5-55" target="wtegNWGlclqcCbMSCLS5-67">
+          <mxGeometry x="0.1277" y="-14" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="390" y="242" as="sourcePoint" />
+            <mxPoint x="550" y="179" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbhWi_Qm2rzLrFuK4YHZ-9" value="Accede a formulario de postulación" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="wtegNWGlclqcCbMSCLS5-71">
+          <mxGeometry x="-0.0046" relative="1" as="geometry">
+            <mxPoint x="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbhWi_Qm2rzLrFuK4YHZ-1" value="Recibir Notificación de Aprobación de Paseador" style="whiteSpace=wrap;strokeWidth=2;shape=ellipse;perimeter=ellipsePerimeter;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="310" width="230" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="jbhWi_Qm2rzLrFuK4YHZ-2" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.538;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wtegNWGlclqcCbMSCLS5-67" target="jbhWi_Qm2rzLrFuK4YHZ-1">
+          <mxGeometry x="0.1277" y="-14" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="430" y="280" as="sourcePoint" />
+            <mxPoint x="510" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbhWi_Qm2rzLrFuK4YHZ-7" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jbhWi_Qm2rzLrFuK4YHZ-1" target="wtegNWGlclqcCbMSCLS5-64">
+          <mxGeometry x="0.1277" y="-14" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="600" y="360" as="sourcePoint" />
+            <mxPoint x="615" y="322" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jbhWi_Qm2rzLrFuK4YHZ-11" value="Si es aprobado, se habilita verificación de correo." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="jbhWi_Qm2rzLrFuK4YHZ-7">
+          <mxGeometry x="-0.144" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
